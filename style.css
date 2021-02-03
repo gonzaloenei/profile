@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+  }
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1 {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 32px;
+  color: #294362;
+  line-height: 1.6;
+}
+
+h2 {
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 24px;
+  color: #294362;
+  line-height: 1.6;
+}
+
+body {
+	background: #F0F6FD;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #294362;
+  line-height: 1.4;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #9DB4C0;
+  font-weight: 600;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,.1);
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.social-icon {
+  font-size: 48px;
+  margin: 0 8px;
+}
+.social-icon:hover {
+  color: #0F4A8E ;
+}
+
+.btn-blue {
+  background-color: #1864BD;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px
+}
+
+.btn-blue:hover {
+  background-color: #0F4A8E;
+}
